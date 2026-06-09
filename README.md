@@ -3,7 +3,16 @@
 # Glowara
 
 Glowara is a modern skincare e-commerce website built with React and Vite.
+## Technologies Used
+- React.js
+- Vite
+- JavaScript
+- CSS
 
+## Getting Started
+1. Install dependencies with `npm install`
+2. Start the development server with `npm run dev`
+3. Build for production with `npm run build`
 
 
 
