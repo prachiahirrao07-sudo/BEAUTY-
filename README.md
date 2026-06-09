@@ -15,7 +15,7 @@ Glowara beauty website
 ![PRODUCT PAGE](https://github.com/prachiahirrao07-sudo/BEAUTY-/blob/main/PRODUCT.png?raw=true)
 ![SKIN QUIZ](https://github.com/prachiahirrao07-sudo/BEAUTY-/blob/main/QUIZ.png?raw=true_)
 ![ABOUT PAGE](https://github.com/prachiahirrao07-sudo/BEAUTY-/blob/main/ABOUT.png?raw=true)
-![CONTACT PAGE](https://github.com/prachiahirrao07-sudo/Ecommerce-website/blob/main/CONTACT.png?raw=true)
+![CONTACT PAGE](https://github.com/prachiahirrao07-sudo/BEAUTY-/blob/main/CONTACT.png?raw=true)
 ![CART PAGE](https://github.com/prachiahirrao07-sudo/Ecommerce-website/blob/main/CART.png?raw=true)
 >>>>>>> 000850a38a8e67e4486651e2da9d454d03216c47
 =======
