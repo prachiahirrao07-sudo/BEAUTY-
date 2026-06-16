@@ -16,17 +16,19 @@ export function App() {
   return (
     <CartProvider>
       <div className="app">
-      <div className="hearts-bg">
-        <span className="heart"> 💖</span>
-        <span className="heart" style={{ left: "15%", animationDuration: "9s" }}> ❤️</span>
-        <span className="heart" style={{ left: "35%", animationDuration: "11s" }}> 💗</span>
-        <span className="heart" style={{ left: "60%", animationDuration: "10s" }}> 💖</span>
-        <span className="heart" style={{ left: "80%", animationDuration: "12s" }}>❤️</span>
-      </div>
+        {/* Floating hearts background */}
+        <div className="hearts-bg">
+          <span className="heart"> 💖</span>
+          <span className="heart" style={{ left: "15%", animationDuration: "9s" }}> ❤️</span>
+          <span className="heart" style={{ left: "35%", animationDuration: "11s" }}> 💗</span>
+          <span className="heart" style={{ left: "60%", animationDuration: "10s" }}> 💖</span>
+          <span className="heart" style={{ left: "80%", animationDuration: "12s" }}> ❤️</span>
+        </div>
 
-      <Navbar />
+        {/* Navbar always visible */}
+        <Navbar />
 
-      <main className="page-container">
+        {/* Page routes */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
@@ -36,10 +38,12 @@ export function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
-      </main>
 
+        {/* Footer always visible */}
         <Footer />
       </div>
     </CartProvider>
   );
 }
+
+export default App;

@@ -36,7 +36,7 @@ export function Navbar() {
           <NavLink to="/cart" className={({ isActive }) => isActive ? "link active" : "link"}>
             Cart
           </NavLink>
-          <span className="cart -count">{items.length}</span>
+          <span className="cart-count">{items.length}</span>
         </div>
       </div>
     </nav>
